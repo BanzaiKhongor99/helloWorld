@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login test Suite">
+    <test name="Log in Main Page">
+         <classes>
+             <class name="myTestPackage.HelloWorldTestNg"/>
+             
+          </classes>
+     </test> <!-- Test -->
+     <test name="Successful Login">
+		 <classes>
+			 <class name="myTestPackage.Log">
+				 
+			 </class>
+		 </classes>
+	 </test>
+</suite> <!-- Suite -->
